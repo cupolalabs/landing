@@ -17,13 +17,12 @@ function Home() {
       {/* CTA Button below the slogan */}
       <Link
         to="/manifesto"
-        className="absolute left-1/2 top-[60%] md:top-[56%] -translate-x-1/2 px-8 py-3 rounded-full shadow-xl font-bold mt-4 md:mt-0 transition duration-200 hover:drop-shadow-[0_0_16px_#FFF4B9] hover:shadow-[0_0_32px_#FFF4B9]"
+        className="absolute left-1/2 top-[60%] md:top-[56%] -translate-x-1/2 px-16 py-3 rounded-full shadow-xl font-bold mt-4 md:mt-0 transition duration-200 hover:drop-shadow-[0_0_16px_#FFF4B9] hover:shadow-[0_0_32px_#FFF4B9] text-base md:text-lg md:w-auto flex justify-center text-center"
         style={{
           background: "rgba(255, 244, 185, 0.55)",
           color: "#1B1B1B",
           fontFamily: "Poppins, sans-serif",
           fontWeight: 800,
-          fontSize: "1.15rem",
           border: "2px solid rgba(255,244,185,0.35)",
           boxShadow: "0 8px 32px 0 rgba(255,244,185,0.18)",
           backdropFilter: "blur(18px) saturate(180%)",
