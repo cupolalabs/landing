@@ -152,7 +152,7 @@ function Terms() {
   return (
     <div className="max-w-2xl mx-auto pt-20 md:pt-32 pb-16 px-4 text-[#FFF4B9]">
       <h1 className="text-3xl font-bold mb-6">Terms of Service</h1>
-      <p className="mb-4">Last updated: June 2024</p>
+      <p className="mb-4">Last updated: June 2025</p>
       <p className="mb-4">
         Welcome to Cupola Labs, LLC. By accessing or using our website,
         products, or services, you agree to be bound by these Terms of Service.
@@ -219,7 +219,7 @@ function Privacy() {
   return (
     <div className="max-w-2xl mx-auto pt-20 md:pt-32 pb-16 px-4 text-[#FFF4B9]">
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
-      <p className="mb-4">Last updated: June 2024</p>
+      <p className="mb-4">Last updated: June 2025</p>
       <p className="mb-4">
         Cupola Labs, LLC ("we", "us", or "our") is committed to protecting your
         privacy. This Privacy Policy explains how we collect, use, disclose, and
