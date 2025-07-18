@@ -1,7 +1,10 @@
 name = "cupolalabs-landing-site"
+main = "worker.js"
 compatibility_date = "2025-07-18"
-
-main = "workers-site/index.js"
 
 [site]
 bucket = "./"
+
+[[bindings]]
+type = "static_asset"
+name = "ASSETS"
