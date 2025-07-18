@@ -1,13 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cupola Labs</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="/_vercel/insights/script.js"></script>
+  <title>Cupola Labs</title>
+  <meta name="description" content="infra and tools, made for humans" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <img class="logo" draggable="false" src="./public/cupola-logo.svg" />
+      <p>infra and tools, made for humans</p>
+    </nav>
+    <hr />
+    <main>
+      <h2>Core Projects</h2>
+      <ul>
+        <li>
+          <a href="https://ai-sdk.rs" target="_blank">ai-sdk</a> SDK with one interface for multiple AI providers.
+        </li>
+        <li>
+          <a href="https://wrapper.sh" target="_blank">wrapper</a> Terminal LLM client with streaming, file upload, and
+          MCP-style bindings.
+        </li>
+      </ul>
+      <hr />
+      <h2>Contributions</h2>
+      <p>
+        We’re grateful for every contribution that helps Cupola Labs grow and improve. Whether you want to report an
+        issue, suggest a feature, or submit a pull request, your input makes a difference.
+      </p>
+      <p>All our projects live on <a href="https://github.com/orgs/cupolalabs/repositories" target="_blank">GitHub</a>,
+        and
+        that’s the best place to get involved.</p>
+      <p>
+        If you have questions about contributing or want to discuss your ideas before submitting a PR, join our
+        <a href="https://discord.com/invite/Ecb49reHXE" target="_blank">Discord</a>
+        community and head to the <b>#contributions</b> channel.
+      </p>
+      <hr />
+      <h2>Elsewhere</h2>
+      <ul>
+        <li>
+          <a href="https://x.com/cupolalabs" target="_blank">𝕏</a>
+        </li>
+        <li>
+          <a href="https://github.com/cupolalabs" target="_blank">GitHub</a>
+        </li>
+        <li>
+          <a href="https://discord.com/invite/Ecb49reHXE" target="_blank">Discord</a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/company/cupolalabs" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          contact@cupolalabs.org
+        </li>
+      </ul>
+      <hr />
+      <blockquote class="quote">
+        <p>“For everything in the world, for civilization, for life, for success, the truest guide is science and
+          technology.”</p>
+        <footer>— Mustafa Kemal Atatürk, 1933, Istanbul University Opening Speech</footer>
+      </blockquote>
+    </main>
+    <hr />
+    <footer>
+      <p class="text-mini"><b>Cupola Labs, LLC</b> ©
+        <span id="year"></span>
+      </p>
+    </footer>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
