@@ -5,10 +5,10 @@
   "scripts": {
     "dev": "vite --port 3000"
   },
-  "devDependencies": {
-    "wrangler": "^4.25.0"
-  },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "devDependencies": {
+    "vite": "^7.0.5"
   }
 }
