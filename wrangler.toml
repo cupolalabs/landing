@@ -1,6 +1,7 @@
 name = "cupolalabs-landing-site"
 compatibility_date = "2025-07-18"
 
+main = "workers-site/index.js"
+
 [site]
 bucket = "./"
-entry-point = "workers-site"
