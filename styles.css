@@ -21,6 +21,7 @@
 body {
   background-color: var(--color-primary-bg);
   padding: var(--space-xl);
+  font-family: 'Inter', sans-serif;
 }
 
 .container {
@@ -37,7 +38,7 @@ h4,
 h5 {
   color: var(--color-primary-text);
   font-style: italic;
-  margin-bottom: calc(-1 * var(--space-md));
+  margin-bottom: calc(-1 * var(--space-sm));
 }
 
 hr {
@@ -47,32 +48,41 @@ hr {
 
 a {
   color: var(--color-highlight-pop);
-  font-size: var(--text-xl);
-  font-style: italic;
+  font-size: var(--text-base);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 p {
   color: var(--color-primary-text);
-  font-size: var(--text-xl);
+  font-size: var(--text-base);
 }
 
 ul {
-  list-style-position: inside;
-  padding: 0;
+  list-style-position: outside;
   color: var(--color-primary-text);
-  font-size: var(--text-xl);
+  font-size: var(--text-base);
+  padding-left: 20px;
+}
+
+li {
+  padding-left: 0;
+  margin-left: 0;
 }
 
 .text-mini {
-  font-size: var(--text-base) !important;
+  font-size: var(--text-xs) !important;
 }
 
 .link-mini {
-  font-size: var(--text-base) !important;
+  font-size: var(--text-xs) !important;
 }
 
 .logo {
-  height: 48px;
+  height: var(--space-xl);
   width: auto;
   pointer-events: none;
   user-select: none;
@@ -92,7 +102,7 @@ ul {
   margin-top: var(--space-xs);
   font-style: normal;
   font-weight: normal;
-  font-size: var(--text-sm);
+  font-size: var(--text-xs);
   color: var(--color-secondary-muted);
   text-align: left;
 }
