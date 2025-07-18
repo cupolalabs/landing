@@ -4,3 +4,7 @@ compatibility_date = "2025-07-18"
 
 [site]
 bucket = "./"
+
+[[bindings]]
+type = "static_asset"
+name = "ASSETS"
