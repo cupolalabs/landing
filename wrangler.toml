@@ -1,0 +1,6 @@
+name = "cupolalabs-landing-site"
+compatibility_date = "2025-07-18"
+
+[site]
+bucket = "./"
+entry-point = "workers-site"
