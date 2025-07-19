@@ -25,7 +25,7 @@ body {
 }
 
 .container {
-  width: clamp(320px, 90%, 900px);
+  width: clamp(320px, 100%, 700px);
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box;
@@ -87,6 +87,14 @@ li {
   pointer-events: none;
   user-select: none;
   -webkit-user-drag: none;
+}
+
+.logo-container {
+  background-color: var(--color-highlight-pop);
+  padding: var(--space-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .quote {
